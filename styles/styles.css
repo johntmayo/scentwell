@@ -49,19 +49,21 @@ h1 {
     color: #1E3751;
 }
 
+.content-section {
+    text-align: left; /* Left-align content within this section */
+}
+
 h2 {
     font-family: 'Inter', sans-serif;
     font-size: 18px; /* Smaller font size for h2 */
     color: #1E3751;
     margin-top: 20px;
-    text-align: left; /* Left-align h2 */
 }
 
 ul {
     list-style-type: none;
     padding: 0;
     margin: 0;
-    text-align: left; /* Left-align ul */
 }
 
 ul li {
