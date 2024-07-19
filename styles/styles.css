@@ -10,7 +10,7 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background-color: #FEF9EC; /* Updated background color */
+    background-color: #E5EFF2; /* Updated background color */
 }
 
 .container {
@@ -31,7 +31,7 @@ body {
 .main-title {
     font-family: 'Lora', serif;
     font-size: 24px;
-    color: #1E3751;
+    color: #264351;
     margin-bottom: 5px;
 }
 
@@ -46,7 +46,7 @@ body {
 h1 {
     font-family: 'Lora', serif;
     margin-bottom: 20px;
-    color: #1E3751;
+    color: #264351;
 }
 
 .content-section {
@@ -56,7 +56,7 @@ h1 {
 h2 {
     font-family: 'Inter', sans-serif;
     font-size: 18px; /* Smaller font size for h2 */
-    color: #1E3751;
+    color: #264351;
     margin-top: 20px;
 }
 
@@ -72,7 +72,7 @@ ul li {
 
 a {
     text-decoration: none;
-    color: #1D58BA;
+    color: #4B91D1;
 }
 
 a:hover {
@@ -91,7 +91,7 @@ a:hover {
     width: calc(50% - 10px);
     padding: 15px;
     margin: 5px 0;
-    background-color: #1D58BA; /* Main button color */
+    background-color: #264351; /* Main button color */
     color: white;
     border: none;
     text-align: center;
@@ -109,15 +109,15 @@ a:hover {
 }
 
 .button:hover {
-    background-color: #003362; /* Hover color for main buttons */
+    background-color: #7CADD7; /* Hover color for main buttons */
 }
 
 .button.red {
-    background-color: #C00C15; /* Resource button color */
+    background-color: #9B0B1C; /* Resource button color */
 }
 
 .button.red:hover {
-    background-color: #8B0000; /* Hover color for resource buttons */
+    background-color: #D20F25; /* Hover color for resource buttons */
 }
 
 .home-link {
