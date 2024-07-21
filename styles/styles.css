@@ -49,7 +49,7 @@ h1 {
     font-family: 'Inter', sans-serif;
     margin-bottom: 20px;
     color: #213A53;
-    font-size: 30px;
+    font-size: 28px;
 }
 
 .content-section {
@@ -106,7 +106,7 @@ a {
 }
 
 a:hover {
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 .button-row {
@@ -148,6 +148,17 @@ a:hover {
 
 .button.resources:hover {
     background-color: #D20F25; /* Hover color for resource buttons */
+}
+
+.button.white {
+	background-color: #FFFFFF;
+	color: #213A53;
+	border: 1px solid #213A53;
+}
+
+.button.white:hover {
+	background-color: #4B91D1;
+	color: #FFFFFF;
 }
 
 .home-link {
