@@ -5,7 +5,8 @@
 }
 
 body {
-    font-family: 'Inter', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -33,20 +34,22 @@ body {
 .main-title {
     font-family: 'Lora', serif;
     font-size: 28px;
-    color: #4b91d1;
+    color: #264351;
     margin-bottom: 5px;
 }
 
 .sub-title {
-    font-family: 'Inter', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
     font-size: 16px;
-    color: #7cadd7;
+    color: #4B91D1;
     text-transform: uppercase;
     margin-top: 0; /* Remove top margin to reduce spacing */
 }
 
 h1 {
-    font-family: 'Inter', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
     margin-bottom: 20px;
     color: #213A53;
     font-size: 28px;
@@ -57,14 +60,16 @@ h1 {
 }
 
 h2 {
-    font-family: 'Inter', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
     font-size: 18px; /* Smaller font size for h2 */
     color: #264351;
     margin-top: 20px;
 }
 
 h3 {
-    font-family: 'Inter', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
     font-size: 20px; /* Slightly larger than before */
     color: #264351;
     margin-top: 0px; /* Adjust margin as needed */
@@ -82,7 +87,7 @@ h3 {
     width: 100%;
     padding: 25px;
     background-color: rgba(255, 255, 255, 0.8); /* Optional background for contrast */
- 	margin-top: 20px;
+    margin-top: 20px;
     margin-bottom: 20px;
     text-align: left;
 }
@@ -107,7 +112,7 @@ a {
 }
 
 a:hover {
-    text-decoration: none;
+    text-decoration: underline;
 }
 
 .button-row {
@@ -117,7 +122,8 @@ a:hover {
 }
 
 .button {
-    font-family: 'Nunito', sans-serif; /* Changed to Nunito */
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
     display: block;
     width: calc(50% - 10px);
     padding: 15px;
@@ -143,23 +149,15 @@ a:hover {
     background-color: #345C83; /* Darker hover color for main buttons */
 }
 
-.button.resources {
-    background-color: #9B0B1C; /* Resource button color */
-}
-
-.button.resources:hover {
-    background-color: #D20F25; /* Hover color for resource buttons */
-}
-
 .button.white {
-	background-color: #FFFFFF;
-	color: #213A53;
-	border: 1px solid #213A53;
+    background-color: #FFFFFF;
+    color: #213A53;
+    border: 1px solid #213A53;
 }
 
 .button.white:hover {
-	background-color: #4B91D1;
-	color: #FFFFFF;
+    background-color: #4B91D1;
+    color: #FFFFFF;
 }
 
 .home-link {
