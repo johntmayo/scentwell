@@ -48,7 +48,7 @@ body {
 }
 
 h1 {
-    font-family: 'Poppins', serif;
+    font-family: 'Poppins', sans-serif;
     font-weight: 700;
     margin-bottom: 20px;
     color: #213A53;
@@ -184,9 +184,24 @@ a:hover {
 }
 
 @media (max-width: 768px) {
+    body {
+        background-image: none; /* Remove background image on mobile */
+        background-color: #ffffff; /* Fallback background color */
+    }
+
+    .container {
+        width: 100%;
+        max-width: none;
+        padding: 20px;
+        background-color: transparent;
+        box-shadow: none;
+        border-radius: 0;
+        text-align: center;
+    }
+
     .button {
-        width: calc(50% - 10px);
+        width: calc(50% - 10px); /* Keep two buttons per row */
         margin: 5px;
-        height: 90px; /* Increased height for mobile to accommodate longer labels */
+        height: 90px;
     }
 }
